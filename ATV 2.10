@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+      
+        Console.Write("Digite um número: ");
+        float num1 = float.Parse(Console.ReadLine());
+        
+        Console.WriteLine("O resto da divisão por 2 é: {0} ", num1 % 2);
+    }
+}
